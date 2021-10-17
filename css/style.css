@@ -1,0 +1,179 @@
+:root {
+    font-family: Yu Mincho;
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+.column {
+    flex-basis: 100%;
+}
+  
+@media screen and (min-width: 800px) {
+    .column {
+      flex: 1;
+    }
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 85%;
+    max-width: 1500px;
+}
+
+.element {
+    margin-bottom: 40px;
+    height: 600px;
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.header-large {
+    font-size: 36px;
+    text-decoration: none;
+}
+
+.header-medium {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.header {
+    height: 170px;
+    background-color: burlywood;
+}
+
+.header .logo {
+    padding-top: 46px;
+}
+
+.reservation-cta {
+    padding-top: 46px;
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+    line-height: 2em;
+}
+
+.header div.navbar-links {
+    margin: 0;
+    font-size: 24px;
+    padding-top: 73px;
+    padding-right: 3px;
+    width: 57%;
+}
+
+.header ul.navbar li {
+    list-style: none;
+    margin: 36px;
+    padding: 0;
+    text-decoration:none;
+    display: inline;
+}
+
+.header a.plain:hover {
+    text-decoration: underline black;
+}
+
+.header a.plain {
+    text-decoration: none;
+    color: black;
+}
+
+.reservation-cta {
+    text-align: right;
+}
+
+/*CSS for the cover image and text*/
+.landing {
+    width: auto;
+    height: 100vh;
+  
+    background-image: url("/img/landing_banner.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.landing .cover-text {
+    font-size: 96px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.map {  
+    background-image: url("/img/hinamizawa_map.svg"); 
+    background-size:fill;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.footer {
+    width: 100%;
+    height: 350px;
+    background-image: url("/img/footer.png");
+    font-weight: bold;
+}
+
+.footer ul.navbar {
+    list-style: none;
+    line-height: 3em;
+}
+
+.footer a.plain {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: -30%;
+}
+
+.footer a.plain:hover {
+    text-decoration: underline;
+}
+
+.footer .cta {
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+}
+
+.footer .cta:hover {
+    text-decoration: underline white;
+    color: white;
+    font-size: 36px;
+}
+
+.page-title h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.page-title img {
+    width: 66px;
+    padding-right: 20px;
+}
+
+
+/*Inputs and other interactables*/
+input, textarea {
+    font-size: 18px;
+    font-family: Yu Mincho;
+    margin: 10px 0px 10px 0px;
+}

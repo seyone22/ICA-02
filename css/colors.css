@@ -1,0 +1,16 @@
+/* Named colors from preliminary colorscheme. */
+:root {
+    --light-grey: #D7DBDA;
+    --dark-grey: #A3B2B5;
+    --brick-red: #AD4B02;
+    --selected-brown: #432910;
+  }  
+
+:root {
+    --background-dark: white;
+    --background-light: white;
+    --text-dark: white;
+    --text-light: white;
+    --accent-1: white;
+    --accent-2: white;
+}  
