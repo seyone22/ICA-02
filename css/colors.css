@@ -1,4 +1,5 @@
 /* Named colors from preliminary colorscheme. */
+/* not used due to lack of time */
 :root {
     --light-grey: #D7DBDA;
     --dark-grey: #A3B2B5;
@@ -14,3 +15,11 @@
     --accent-1: white;
     --accent-2: white;
 }  
+
+hr.vertical {
+  border: 0;
+  margin: 0;
+  border-left: 5px solid black;
+  height: 600px;
+  float: left;
+}

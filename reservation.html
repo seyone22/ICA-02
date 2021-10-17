@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/colors.css">
+
+    <script src="https://kit.fontawesome.com/f03ba92cb2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: column; margin: 0; justify-content: center;">
+        <div class="header">
+            <div class="container" style="flex-direction: row;">
+                <span style="float: left;" class="logo">
+                    <a href="index.html"><img src="img/logo.png"></a>
+                </span>
+                <div class="navbar-links">
+                    <ul class="navbar">
+                        <li><a class="plain" href="aboutus.html">About&nbsp;Us</a></li>
+                        <li><a class="plain" href="contact.html">Contact</a></li>
+                        <li><a class="plain" href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <span style="float: right;" class="reservation-cta">
+                    <a class="plain header-large" href="reservation.html">Make a Reservation</a>
+                    <a class="plain header-medium" href="login.html">Guest Login</a>
+                </span>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="page-title" style="display: flex;">
+                <img src="img/icon.svg">
+                <h1>Make a Reservation</h1>
+            </div>
+            <div style="margin-left: 30px;">
+                <div style="width: 100%; padding-bottom: 50px;">
+                    <form method="POST">
+                        <fieldset style="border: hidden;">
+                            <h2>Your Information</h2>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="fname">Family Name*</label>
+                                </div>
+                                <div class="column">
+                                    <input style="width: 100%;" type="text" name="fname" id="fname">
+                                </div>
+                            </div>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="name">Name*</label>
+                                </div>
+                                <div class="column">
+                                    <input style="width: 100%;" type="name" name="name" id="name">
+                                </div>
+                            </div>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="dob">Date of Birth</label>
+                                </div>
+                                <div class="column">
+                                    <input style="width: 100%;" type="date" name="dob" id="dob">
+                                </div>
+                            </div>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="name">Gender</label>
+                                </div>
+                                <div class="column">
+                                    <select style="width: 103%; background-color: transparent; border: 1px solid grey;">
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset style="border: hidden;">
+                            <h2>Residential Address</h2>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="addr1">Address Line 1</label>
+                                </div>
+                                <div class="column">
+                                    <input style="width: 100%;" type="text" name="addr1" id="addr1">
+                                </div>
+                            </div>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="addr2">Address Line 2</label>
+                                </div>
+                                <div class="column">
+                                    <input style="width: 100%;" type="text" name="addr2" id="addr2">
+                                </div>
+                            </div>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="town">Town/Village</label>
+                                </div>
+                                <div class="column">
+                                    <input style="width: 100%;" type="text" name="town" id="town">
+                                </div>
+                            </div>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="city">City</label>
+                                </div>
+                                <div class="column">
+                                    <input style="width: 100%;" type="text" name="city" id="city">
+                                </div>
+                            </div>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="prefecture">Prefecture/Province</label>
+                                </div>
+                                <div class="column">
+                                    <input style="width: 100%;" type="text" name="prefecture" id="prefecture">
+                                </div>
+                            </div>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="postalcode">Postal Code</label>
+                                </div>
+                                <div class="column">
+                                    <input style="width: 100%;" type="text" name="postalcode" id="postalcode">
+                                </div>
+                            </div>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="country">Country</label>
+                                </div>
+                                <div class="column">
+                                    <input style="width: 100%;" type="text" name="country" id="country">
+                                </div>
+                            </div>
+                            <p><ul><li style="margin-left: -25px;">If you are a foreigner, please fill in the fields with your regional equivalent</li></ul></p>
+                        </fieldset>
+
+                        <fieldset style="border: hidden;">
+                            <h2>Reservation Details</h2>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="persons">Number of persons</label>
+                                </div>
+                                <div class="column">
+                                    <input style="width: 100%;" type="number" name="persons" id="persons">
+                                </div>
+                            </div>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="roompref">Preferred Room<sup>1</sup></label>
+                                </div>
+                                <div class="column">
+                                    <select id="roompref" name="roompref" style="width: 103%; background-color: transparent; border: 1px solid grey;">
+                                        <option>Haru suite (Japanese style)</option>
+                                        <option>Natsu suite (Japanese style)</option>
+                                        <option>Blue suite (Western style)</option>
+                                        <option>Red suite (Western style)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="dining">Dining Arrangement<sup>2</sup></label>
+                                </div>
+                                <div class="column">
+                                    <select id="dining" name="dining " style="width: 103%; background-color: transparent; border: 1px solid grey;">
+                                        <option>Breakfast and Dinner</option>
+                                        <option>Breakfast only</option>
+                                        <option>Dinner only</option>
+                                        <option>No meals</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="checkin">Check in Date</label>
+                                </div>
+                                <div class="column">
+                                    <input style="width: 100%;" type="date" name="checkin" id="checkin">
+                                </div>
+                            </div>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="checkout">Check out Date</label>
+                                </div>
+                                <div class="column">
+                                    <input style="width: 100%;" type="date" name="checkout" id="checkout">
+                                </div>
+                            </div>
+                            <p><ol><li style="margin-left: -25px;">Room will be allocated if available. Please contact us for details on availability.</li></ol></p>
+                        </fieldset>
+
+                        <fieldset style="border: hidden;">
+                            <h2>Contact Info</h2>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="tel">Telephone No.</label>
+                                </div>
+                                <div class="column">
+                                    <input style="width: 100%;" type="tel" name="tel" id="tel">
+                                </div>
+                            </div>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="telalt">Alternate Telephone No.</label>
+                                </div>
+                                <div class="column">
+                                    <input style="width: 100%;" type="telalt" name="tel" id="telalt">
+                                </div>
+                            </div>
+                            <div class="row" style="width: 70%;">
+                                <div class="column" style="margin-top: 13px;">
+                                    <label for="email">Email Address</label>
+                                </div>
+                                <div class="column">
+                                    <input style="width: 100%;" type="email" name="email" id="email">
+                                </div>
+                            </div>
+                        </fieldset>
+                        <p>By submitting this form you agree to us contacting you to confirm the details of your reservation
+                            <br>
+                            A confirmation email and text message will be send to the provided email address and telephone number.
+                        </p>
+
+                        <div class="row " style="width: 50%;">
+                            <div class="column"
+                                style="margin-top: 13px; margin: 0; justify-content: center; display: flex;">
+                                <button type="submit" class="outline"
+                                    style="width: 50%; font-size: 18px; padding: 7px; font-family: Yu Minchu;">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div style="display: inline-block;">
+                    <span style="float: left; padding-top: 75px;">
+                        <a href="/index.html"><img src="/img/logo_large.svg" height="250px"></a>
+                    </span>
+                    <span style="float: left; padding-left: 75px; padding-top: 75px;">
+                        <ul class="navbar">
+                            <li><a class="plain" href="aboutus.html">About Us</a></li>
+                            <li><a class="plain" href="contact.html">Contact</a></li>
+                            <li><a class="plain" href="gallery.html">Gallery</a></li>
+                        </ul>
+                    </span>
+                    <span class="reservation-cta" style="float: right; padding-top: 135px; color: white;">
+                        <a class="cta" href="reservation.html" style="">Online Booking</a>
+                        <a class="cta" style="font-size: 24px;" href="login.html">Guest Login</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

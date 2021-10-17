@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/colors.css">
+
+    <script src="https://kit.fontawesome.com/f03ba92cb2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: column; margin: 0; justify-content: center;">
+        <div class="header">
+            <div class="container" style="flex-direction: row;">
+                <span style="float: left;" class="logo">
+                    <a href="index.html"><img src="img/logo.png"></a>
+                </span>
+                <div class="navbar-links">
+                    <ul class="navbar">
+                        <li><a class="plain" href="aboutus.html">About&nbsp;Us</a></li>
+                        <li><a class="plain" href="contact.html">Contact</a></li>
+                        <li><a class="plain" href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <span style="float: right;" class="reservation-cta">
+                    <span><a class="plain header-large" href="reservation.html">Make a Reservation</a></span>
+                    <span><a class="plain header-medium" href="login.html">Guest Login</a></span>
+                </span>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="page-title" style="display: flex;">
+                <img src="img/icon.svg">
+                <h1>Guest Login</h1>
+            </div>
+
+            <div class="row element" style="margin-bottom: 50px; height: auto;">
+                <div class="row" style="width: 30%; height: 100%; justify-content: center; width: 330px;">
+                    <form method="post" action="#">
+                        <lable>Username</lable>
+                        <input class="line" type="text" name="name" id="name">
+                        <lable>Password</lable>
+                        <input class="line" type="password" name="password" id="password">
+                        <button type="submit" class="outline">Login</button>
+                    </form>
+                    <a href="#" class="box-outline">Forgot Password?</a>
+                </div>
+            </div>
+            <div class="row element" style="margin-bottom: 50px; height: auto;">
+                <div style="text-align: center; width: 70%;">
+                    Please login with the credentials you used to make your reservation. If this is your first stay with
+                    us, please click here.
+                    <br><br>
+                    You can use the guest portal to check on the status of, modify, or cancel your reservation. For any
+                    further clarification please call or email us mentioning yor user ID.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div style="display: inline-block;">
+                <span style="float: left; padding-top: 75px;">
+                    <a href="/index.html"><img src="/img/logo_large.svg" height="250px"></a>
+                </span>
+                <span style="float: left; padding-left: 75px; padding-top: 75px;">
+                    <ul class="navbar">
+                        <li><a class="plain" href="aboutus.html">About Us</a></li>
+                        <li><a class="plain" href="contact.html">Contact</a></li>
+                        <li><a class="plain" href="gallery.html">Gallery</a></li>
+                    </ul>
+                </span>
+                <span class="reservation-cta" style="float: right; padding-top: 135px; color: white;">
+                    <a class="cta" href="reservation.html" style="">Online Booking</a>
+                    <a class="cta" style="font-size: 24px;" href="login.html">Guest Login</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
