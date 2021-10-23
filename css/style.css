@@ -5,11 +5,11 @@
 body {
     margin: 0;
     font-size: 18px;  
-    background-image: url("/img/13683asdf728.png");  
+    background-image: url("../img/13683asdf728.png");  
 }
 
 .transparentbg:after {
-    background-image: url("/img/13683728.jpg") repeat scroll 0 0 transparent;
+    background-image: url("../img/13683728.jpg") repeat scroll 0 0 transparent;
     opacity: 0.2;
     bottom: 0;
     content: "";
@@ -118,7 +118,7 @@ body {
     width: auto;
     height: 100vh;
   
-    background-image: url("/img/landing_banner.jpg"); 
+    background-image: url("../img/landing_banner.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -132,7 +132,7 @@ body {
 }
 
 .map {  
-    background-image: url("/img/hinamizawa_map.svg"); 
+    background-image: url("../img/hinamizawa_map.svg"); 
     background-size:fill;
     background-repeat: no-repeat;
     background-position: right;
@@ -141,7 +141,7 @@ body {
 .footer {
     width: 100%;
     height: 350px;
-    background-image: url("/img/footer1.png");
+    background-image: url("../img/footer1.png");
     font-weight: bold;
 }
 
